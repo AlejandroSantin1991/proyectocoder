@@ -111,6 +111,7 @@ header {
     background-attachment: fixed;
 
 }
+
 .titulo__sitio {
     /*display: flex;
     justify-content: center;*/
@@ -190,32 +191,37 @@ header {
 
 
 }
+
 .imagenes__efecto {
     animation-name: slide-top;
     animation-duration: 4s;
     animation-iteration-count: 1;
 
 }
+
 @-webkit-keyframes slide-top {
     0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
+
     100% {
-      -webkit-transform: translateY(-100px);
-              transform: translateY(-100px);
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
     }
-  }
-  @keyframes slide-top {
+}
+
+@keyframes slide-top {
     0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
+
     100% {
-      -webkit-transform: translateY(-100px);
-              transform: translateY(-100px);
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
     }
-  }
+}
 
 .rutyejec__efectos {
     animation-name: scale-up-center;
@@ -473,32 +479,37 @@ display: none;
 
 
 }
+
 .efectos__hijos {
-animation-name: deslizarderechahijos;
-animation-duration: 3s;
-animation-iteration-count: 1;
+    animation-name: deslizarderechahijos;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
 
 }
+
 @-webkit-keyframes deslizarderechahijos {
     0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
+
     100% {
-      -webkit-transform: translateX(300px);
-              transform: translateX(300px);
+        -webkit-transform: translateX(300px);
+        transform: translateX(300px);
     }
-  }
-  @keyframes slide-right {
+}
+
+@keyframes slide-right {
     0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
+
     100% {
-      -webkit-transform: translateX(300px);
-              transform: translateX(300px);
+        -webkit-transform: translateX(300px);
+        transform: translateX(300px);
     }
-  }
+}
 
 .footer__hijos {
 
@@ -612,6 +623,11 @@ animation-iteration-count: 1;
 
 
 }
+
+
+
+
+
 
 .proteina__imagen {
     width: 10%;
