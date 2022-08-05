@@ -1,0 +1,279 @@
+.divproductos {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 5rem;
+
+
+}
+
+.titulo-suplementacion {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 64px;
+    padding-bottom: 6rem;
+    justify-content: center;
+    display: flex;
+    margin-right: 2rem;
+    color: $colorPrincipal;
+
+}
+
+.proteina__texto {
+    /*Titulo*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+
+    width: 9%;
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 9.5rem;
+    color: $colorPrincipal;
+
+
+}
+
+.proteina__texto1 {
+    /*Parrafo*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+
+    width: 7%;
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 11.5rem;
+    color: $colorPrincipal;
+
+}
+
+.proteina__texto2 {
+    /*Peso*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+
+    width: 7%;
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: row;
+    position: absolute;
+
+    margin-top: -2.5rem;
+
+}
+
+.proteina__texto3 {
+    /*Seleccione option*/
+
+    font-size: 14px;
+
+
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: row;
+    margin-top: -1.4rem;
+    color: $colorPrincipal;
+    position: absolute;
+    top: 3;
+
+}
+
+.proteina__texto4 {
+    display: flex;
+    margin-left: 15rem;
+    flex-direction: row;
+
+    margin-top: 8rem;
+
+
+
+
+}
+
+
+
+
+
+
+.proteina__imagen {
+    width: 10%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: row;
+    margin-left: 3rem;
+
+
+
+}
+
+/*Vitaminas textos*/
+.vitamina__texto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+
+    width: 9%;
+    display: flex;
+    margin-left: 25rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -4.5rem;
+    color: $colorPrincipal;
+
+
+}
+
+.vitamina__texto1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+
+    width: 9%;
+    display: flex;
+    margin-left: 25rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -2.5rem;
+    color: $colorPrincipal;
+}
+
+.vitamina__texto2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+
+    width: 9%;
+    display: flex;
+    margin-left: 24rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -16.5rem;
+    color: $colorPrincipal;
+
+}
+
+.vitamina__texto3 {
+
+
+    display: flex;
+    margin-left: 25rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -10.5rem;
+    top: 3px;
+    color: $colorPrincipal;
+
+}
+
+.vitamina__texto4 {
+
+    display: flex;
+    margin-left: 42rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -11rem;
+
+}
+
+/*Vitaminas imagen*/
+.vitamina__imagen {
+    width: 10%;
+    height: 14%;
+    display: flex;
+    margin-left: 30rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -19rem;
+
+}
+
+/*Creatina textos*/
+/*Titulo*/
+.creatina__texto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+
+    width: 9%;
+    display: flex;
+    margin-left: 48rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -14.5rem;
+    color: black;
+
+}
+
+.creatina__texto1 {
+    /*Parrafo*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+
+    width: 9%;
+    display: flex;
+    margin-left: 48rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -12.5rem;
+    color: $colorPrincipal;
+
+
+
+}
+
+.creatina__texto2 {
+    /*Peso*/
+
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    width: 9%;
+    display: flex;
+    margin-left: 47rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -26.5rem;
+    color: $colorPrincipal;
+}
+
+.creatina__texto3 {
+
+    width: 9%;
+    display: flex;
+    margin-left: 48rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -25.5rem;
+}
+
+.creatina__texto4 {
+
+    display: flex;
+    margin-left: 65rem;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -21rem;
+}
+
+
+
+.creatina__imagen {
+    /*Imagen*/
+    width: 10%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: row;
+    margin-left: 53rem;
+    flex-direction: row;
+    margin-top: -29rem;
+}

@@ -1,0 +1,128 @@
+/*Dietas.html*/
+.titulo__diferentestiposalimentacion {
+    text-decoration: underline;
+    font-size: 64px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorPrincipal;
+
+    text-align: center;
+}
+
+.titulo__dietacetogenica {
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorPrincipal;
+    text-decoration: underline;
+
+    margin-top: 2rem;
+    text-align: center;
+
+
+}
+
+.parrafo__dietacetogenica {
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorPrincipal;
+
+    text-align: center
+}
+
+.video__dietacetogenica {
+    height: 500px;
+    margin-left: 42rem;
+    margin-top: 2rem;
+
+}
+
+/*Dieta Hipocalorica*/
+.titulo__dietahipocalorica {
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorPrincipal;
+    text-decoration: underline;
+
+    margin-top: 2rem;
+    text-align: center;
+
+
+}
+
+.parrafo__dietahipocalorica {
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorPrincipal;
+
+    text-align: center
+}
+
+.video__dietahipocalorica {
+    height: 500px;
+    margin-left: 42rem;
+    margin-top: 2rem;
+
+}
+
+/*Dieta Hipercalorica*/
+.titulo__dietahipercalorica {
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorPrincipal;
+    text-decoration: underline;
+
+    margin-top: 2rem;
+    text-align: center;
+
+
+}
+
+.parrafo__dietahipercalorica {
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorPrincipal;
+
+    text-align: center
+}
+
+.video__dietahipercalorica {
+    height: 500px;
+    margin-left: 42rem;
+    margin-top: 2rem;
+
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .footer__hijo--1 {
+        align-self: center;
+        font-size: 32px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+    
+    .footer__hijo--2 {
+        align-self: center;
+        font-size: 32px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+    
+    .footer__hijo--3 {
+        align-self: center;
+        font-size: 32px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+    
+    .footer__hijo--4 {
+        align-self: center;
+        font-size: 32px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+}
+
+

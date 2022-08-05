@@ -1,0 +1,36 @@
+header {
+    background-color: $colorPrincipal;
+    background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 140%;
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 6rem;
+    padding-right: 4rem;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    width: 9%;
+
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nav__item {
+    margin-left: 2rem;
+}

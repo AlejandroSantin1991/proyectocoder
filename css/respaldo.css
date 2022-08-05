@@ -1,0 +1,56 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    padding: 0.8rem;
+    justify-content: right;
+    border: 1px solid;
+
+
+}
+
+.flexbox {
+    display: flex;
+
+
+}
+/*Carrousel Cards*/
+.titulo__carrousel {
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.imagenes__carrousel {
+    background-size: cover;
+
+}
+
+.lista__precios {}
+
+.espaciado {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Cards Rutinas*/
+.cards {
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+.card-title {
+    color: orange;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: red 1px 2px 4px;
+}
+
+

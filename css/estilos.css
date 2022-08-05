@@ -1,383 +1,363 @@
+@charset "UTF-8";
 /*Reseteando o quitando los estilos por defecto de estas 3 propiedades*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.head {
+  background-color: black;
+  position: relative;
+}
+
+main {
+  min-height: 100vh;
+  margin-top: 200px;
+  /*background-color: white;*/
+  background-color: #b8a46f;
+}
 
 /*Selector de tipo clase*/
 .color-texto {
-    color: black;
-
+  color: black;
 }
 
 p {
-    color: orange;
-    font-size: 20px;
-
+  color: orange;
+  font-size: 20px;
 }
 
 #titulo-destacado {
-    color: rgb(5, 4, 4);
-
-
+  color: #050404;
 }
 
 .tamañofuente-grande {
-    font-size: 64px;
-
+  font-size: 64px;
 }
 
 h1 {
-    color: rgb(116, 77, 5);
-
-
+  color: #744d05;
 }
 
 h2 {
-    color: orange;
+  color: orange;
 }
 
-
-/*h3 {
-color: orange;
-
-}
-*/
 a {
-    text-decoration: none;
-
-}
-
-/*.propiedad-fondo {
-background-color: rgb(1, 2, 2);
-
-}
-*/
-
-/* Index.html */
-.head {
-    background-color: black;
-    position: relative;
-
+  text-decoration: none;
 }
 
 header {
-    background-color: black;
-    background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
-
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 140%;
-
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 1rem;
-    padding-top: 6rem;
-    padding-right: 4rem;
-    position: fixed;
-    top: 0;
+  background-color: black;
+  background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 140%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: 6rem;
+  padding-right: 4rem;
+  position: fixed;
+  top: 0;
 }
 
 .logo {
-    width: 9%;
-
+  width: 9%;
 }
 
 .nav__list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .nav__item {
-    margin-left: 2rem;
+  margin-left: 2rem;
+}
 
-    /*Main */
+.footer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer .footer__hijo--1 {
+  align-self: center;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  list-style: none;
+}
+
+.footer .footer__hijo--2 {
+  align-self: center;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  list-style: none;
+}
+
+.footer .footer__hijo--3 {
+  align-self: center;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  list-style: none;
+}
+
+.footer .footer__hijo--4 {
+  align-self: center;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  list-style: none;
+}
+
+footer {
+  background-color: black;
+  background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
 }
 
 .imagengladiador {
-    background-image: url(../imagenes/fondodefinitivo.png);
-    background-repeat: no-repeat;
-    background-size: 25%;
-    background-position: center;
-    background-attachment: fixed;
-
+  background-image: url(../imagenes/fondodefinitivo.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .titulo__sitio {
-    /*display: flex;
+  /*display: flex;
     justify-content: center;*/
-    color: black;
-    font-size: 64px;
-    text-align: center;
-    transition: padding 2s, background-color 1s, font-size 2s, color 2s, transform 0.5s;
-
-    padding: 1rem;
-
-
+  color: black;
+  font-size: 64px;
+  text-align: center;
+  transition: padding 2s, background-color 1s, font-size 2s, color 2s, transform 0.5s;
+  padding: 1rem;
 }
 
 .titulo__sitio:hover {
-    padding: 0.5rem;
-    background-color: orange;
-    font-size: 80px;
-    color: white;
-    transform: scale(1.1);
-
+  padding: 0.5rem;
+  background-color: orange;
+  font-size: 80px;
+  color: white;
+  transform: scale(1.1);
 }
 
 .texto__sitio {
-    /*display: flex;
+  /*display: flex;
     justify-content: center;*/
-    color: black;
-    font-size: 32px;
-    text-decoration: underline;
-    text-align: center;
+  color: black;
+  font-size: 32px;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .titulo__rutinasyplanes {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 3rem;
-    text-shadow: 3px 5px 4px orange;
-    color: black;
-
-
-
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 3rem;
+  text-shadow: 3px 5px 4px orange;
+  color: black;
 }
 
 .parrafo__rutinasyplanes {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5rem;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
-    padding-left: 4rem;
-
-    transition: font-size 2s, transform 0.1s;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  padding-left: 4rem;
+  transition: font-size 2s, transform 0.1s;
 }
 
 .parrafo__rutinasyplanes:hover {
-
-
-    font-size: 40px;
-    color: orange;
-    text-shadow: black 1px 2px 4px;
-    transform: scale(1);
-
+  font-size: 40px;
+  color: orange;
+  text-shadow: black 1px 2px 4px;
+  transform: scale(1);
 }
 
 .imagenes {
-    position: relative;
-
+  position: relative;
 }
 
 .imagenes__contenido {
-    width: 35%;
-    border-radius: 10%;
-    margin-left: 40%;
-    margin-top: 2rem;
-
-
+  width: 35%;
+  border-radius: 10%;
+  margin-left: 40%;
+  margin-top: 2rem;
 }
 
 .imagenes__efecto {
-    animation-name: slide-top;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-
+  animation-name: slide-top;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
 }
 
 @-webkit-keyframes slide-top {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-
-    100% {
-        -webkit-transform: translateY(-100px);
-        transform: translateY(-100px);
-    }
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
 }
 
 @keyframes slide-top {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-
-    100% {
-        -webkit-transform: translateY(-100px);
-        transform: translateY(-100px);
-    }
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
 }
 
 .rutyejec__efectos {
-    animation-name: scale-up-center;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-
+  animation-name: scale-up-center;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
 @-webkit-keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    100% {
-        -webkit-transform: scale(2);
-        transform: scale(2);
-    }
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
 }
 
 @keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    100% {
-        -webkit-transform: scale(2);
-        transform: scale(2);
-    }
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
 }
 
-
-
 .titulo__ejecucionesyvariantes {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    margin-top: 2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 3px 5px 4px orange;
-    color: black;
-    padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-top: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 3px 5px 4px orange;
+  color: black;
+  padding-top: 1rem;
 }
 
 .parrafo__ejecucionesyvariantes {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5rem;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
-    padding-left: 4rem;
-
-    transition: font-size 2s, transform 0.1s;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  padding-left: 4rem;
+  transition: font-size 2s, transform 0.1s;
 }
 
 .parrafo__ejecucionesyvariantes:hover {
-
-
-    font-size: 40px;
-    color: orange;
-    text-shadow: black 1px 2px 4px;
-    transform: scale(1);
-
+  font-size: 40px;
+  color: orange;
+  text-shadow: black 1px 2px 4px;
+  transform: scale(1);
 }
 
 /*Cartas de precios*/
 .titulo-serviciosdestacados {
-    display: flex;
-    justify-content: center;
-    font-size: 64px;
-    text-decoration: underline;
-    font-style: italic;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 3px solid black;
-    text-shadow: 6px 4px 7px orange;
-    color: black;
-
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px solid black;
+  text-shadow: 6px 4px 7px orange;
+  color: black;
 }
 
 .titulodestacado__efectos {
-    animation-name: efectoparpadeo;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-
-
+  animation-name: efectoparpadeo;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes efectoparpadeo {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .card {
-    background-color: black;
-    color: black;
-    width: 26%;
-    height: 600px;
-    padding: 1rem;
-    margin: 5rem;
-    border: 2px solid orange;
-    border-radius: 10px;
-    overflow: auto;
-    display: block;
-
-    position: relative;
-
+  background-color: black;
+  color: black;
+  width: 26%;
+  height: 600px;
+  padding: 1rem;
+  margin: 5rem;
+  border: 2px solid orange;
+  border-radius: 10px;
+  overflow: auto;
+  display: block;
+  position: relative;
 }
 
 .card__titulo {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    margin-bottom: 64px;
-    text-transform: uppercase;
-    color: orange;
-
-
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin-bottom: 64px;
+  text-transform: uppercase;
+  color: orange;
 }
 
 .card__imagen {
-    width: 60%;
-    max-height: 100px;
-    border-radius: 8px;
-    margin-bottom: 8px;
-
-
+  width: 60%;
+  max-height: 100px;
+  border-radius: 8px;
+  margin-bottom: 8px;
 }
 
 .card__parrafo {
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    color: orange;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: orange;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card__span {
-    color: orange;
-    font-size: 16px;
-    margin-left: 1rem;
-    margin-top: 2rem;
-
+  color: orange;
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 /*
@@ -385,1003 +365,750 @@ header {
 display: none;
 
 }*/
-
 .card--oscuro {
-    background-color: black;
-    color: black;
+  background-color: black;
+  color: black;
 }
 
 .card__absolute {
-    padding: 1rem 2rem 1rem;
-    position: absolute;
-    background-color: orange;
-    color: rgb(246, 246, 252);
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    bottom: 2rem;
-    right: 2rem;
-    border-radius: 1rem;
+  padding: 1rem 2rem 1rem;
+  position: absolute;
+  background-color: orange;
+  color: #f6f6fc;
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 1rem;
 }
 
 .imagenescards {
-    display: flex;
-    margin-left: 3rem;
-    width: 125px;
-    height: 100%;
-
+  display: flex;
+  margin-left: 3rem;
+  width: 125px;
+  height: 100%;
 }
 
 .seccion {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1000px;
-
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .seccion__titulo {
-    text-align: center;
-    padding: 2rem 0;
-    color: black;
-    font-size: 64px;
-    text-decoration: underline;
-    text-shadow: 2px 3px 4px orange;
-
-
-
+  text-align: center;
+  padding: 2rem 0;
+  color: black;
+  font-size: 64px;
+  text-decoration: underline;
+  text-shadow: 2px 3px 4px orange;
 }
 
 .grid {
-    border: 6px solid black;
-    padding: 1.5rem;
-    height: 400px;
-    display: grid;
-
-
-    grid-template-columns: 3fr 3fr;
-    grid-template-rows: 3fr 3fr;
-    row-gap: 25px;
-    column-gap: 5px;
-    align-items: center;
-
-
-
+  border: 6px solid black;
+  padding: 1.5rem;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: 3fr 3fr;
+  row-gap: 25px;
+  column-gap: 5px;
+  align-items: center;
 }
 
 .grid__hijo {
-
-    border: 2px solid orange;
+  border: 2px solid orange;
 }
 
 .grid__hijo--1 {
-
-    background-color: black;
-    justify-self: center;
-
-
+  background-color: black;
+  justify-self: center;
 }
 
 .grid__hijo--2 {
-
-    background-color: black;
-
+  background-color: black;
 }
 
 .grid__hijo--3 {
-
-    background-color: black;
-
-
+  background-color: black;
 }
 
 .grid__hijo--4 {
-    background-color: black;
-
-
-
+  background-color: black;
 }
 
 .efectos__hijos {
-    animation-name: deslizarderechahijos;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-
+  animation-name: deslizarderechahijos;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
 @-webkit-keyframes deslizarderechahijos {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-
-    100% {
-        -webkit-transform: translateX(300px);
-        transform: translateX(300px);
-    }
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+  }
 }
 
 @keyframes slide-right {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-
-    100% {
-        -webkit-transform: translateX(300px);
-        transform: translateX(300px);
-    }
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+  }
 }
 
 .footer__hijos {
-
-    list-style: none;
+  list-style: none;
 }
 
 .grid__parrafo {
-    text-align: center;
-    font-size: 32px;
-    padding: 1rem;
-    color: orange;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+  text-align: center;
+  font-size: 32px;
+  padding: 1rem;
+  color: orange;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-/*Productos.html*/
-
 .divproductos {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    padding: 5rem;
-
-
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding: 5rem;
 }
 
 .titulo-suplementacion {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 64px;
-    padding-bottom: 6rem;
-    justify-content: center;
-    display: flex;
-    margin-right: 2rem;
-    color: black;
-
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 64px;
+  padding-bottom: 6rem;
+  justify-content: center;
+  display: flex;
+  margin-right: 2rem;
+  color: black;
 }
 
 .proteina__texto {
-    /*Titulo*/
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 24px;
-
-    width: 9%;
-    display: flex;
-    margin-left: 3rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: 9.5rem;
-    color: black;
-
-
+  /*Titulo*/
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  width: 9%;
+  display: flex;
+  margin-left: 3rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 9.5rem;
+  color: black;
 }
 
 .proteina__texto1 {
-    /*Parrafo*/
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 16px;
-
-    width: 7%;
-    display: flex;
-    margin-left: 3rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: 11.5rem;
-    color: black;
-
+  /*Parrafo*/
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  width: 7%;
+  display: flex;
+  margin-left: 3rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 11.5rem;
+  color: black;
 }
 
 .proteina__texto2 {
-    /*Peso*/
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 16px;
-
-    width: 7%;
-    display: flex;
-    margin-left: 2rem;
-    flex-direction: row;
-    position: absolute;
-
-    margin-top: -2.5rem;
-
+  /*Peso*/
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  width: 7%;
+  display: flex;
+  margin-left: 2rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -2.5rem;
 }
 
 .proteina__texto3 {
-    /*Seleccione option*/
-
-    font-size: 14px;
-
-
-    display: flex;
-    margin-left: 3rem;
-    flex-direction: row;
-    margin-top: -1.4rem;
-    color: black;
-    position: absolute;
-    top: 3;
-
+  /*Seleccione option*/
+  font-size: 14px;
+  display: flex;
+  margin-left: 3rem;
+  flex-direction: row;
+  margin-top: -1.4rem;
+  color: black;
+  position: absolute;
+  top: 3;
 }
 
 .proteina__texto4 {
-    display: flex;
-    margin-left: 15rem;
-    flex-direction: row;
-
-    margin-top: 8rem;
-
-
-
-
+  display: flex;
+  margin-left: 15rem;
+  flex-direction: row;
+  margin-top: 8rem;
 }
 
-
-
-
-
-
 .proteina__imagen {
-    width: 10%;
-    height: 14%;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    flex-direction: row;
-    margin-left: 3rem;
-
-
-
+  width: 10%;
+  height: 14%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: row;
+  margin-left: 3rem;
 }
 
 /*Vitaminas textos*/
 .vitamina__texto {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 24px;
-
-    width: 9%;
-    display: flex;
-    margin-left: 25rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -4.5rem;
-    color: black;
-
-
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  width: 9%;
+  display: flex;
+  margin-left: 25rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -4.5rem;
+  color: black;
 }
 
 .vitamina__texto1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 16px;
-
-    width: 9%;
-    display: flex;
-    margin-left: 25rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -2.5rem;
-    color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  width: 9%;
+  display: flex;
+  margin-left: 25rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -2.5rem;
+  color: black;
 }
 
 .vitamina__texto2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 16px;
-
-    width: 9%;
-    display: flex;
-    margin-left: 24rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -16.5rem;
-    color: black;
-
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  width: 9%;
+  display: flex;
+  margin-left: 24rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -16.5rem;
+  color: black;
 }
 
 .vitamina__texto3 {
-
-
-    display: flex;
-    margin-left: 25rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -10.5rem;
-    top: 3px;
-    color: black;
-
+  display: flex;
+  margin-left: 25rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -10.5rem;
+  top: 3px;
+  color: black;
 }
 
 .vitamina__texto4 {
-
-    display: flex;
-    margin-left: 42rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -11rem;
-
+  display: flex;
+  margin-left: 42rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -11rem;
 }
 
 /*Vitaminas imagen*/
 .vitamina__imagen {
-    width: 10%;
-    height: 14%;
-    display: flex;
-    margin-left: 30rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -19rem;
-
+  width: 10%;
+  height: 14%;
+  display: flex;
+  margin-left: 30rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -19rem;
 }
 
 /*Creatina textos*/
 /*Titulo*/
 .creatina__texto {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 24px;
-
-    width: 9%;
-    display: flex;
-    margin-left: 48rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -14.5rem;
-    color: black;
-
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  width: 9%;
+  display: flex;
+  margin-left: 48rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -14.5rem;
+  color: black;
 }
 
 .creatina__texto1 {
-    /*Parrafo*/
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 16px;
-
-    width: 9%;
-    display: flex;
-    margin-left: 48rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -12.5rem;
-    color: black;
-
-
-
+  /*Parrafo*/
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  width: 9%;
+  display: flex;
+  margin-left: 48rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -12.5rem;
+  color: black;
 }
 
 .creatina__texto2 {
-    /*Peso*/
-
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-    width: 9%;
-    display: flex;
-    margin-left: 47rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -26.5rem;
-    color: black;
+  /*Peso*/
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 9%;
+  display: flex;
+  margin-left: 47rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -26.5rem;
+  color: black;
 }
 
 .creatina__texto3 {
-
-    width: 9%;
-    display: flex;
-    margin-left: 48rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -25.5rem;
+  width: 9%;
+  display: flex;
+  margin-left: 48rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -25.5rem;
 }
 
 .creatina__texto4 {
-
-    display: flex;
-    margin-left: 65rem;
-    flex-direction: row;
-    position: absolute;
-    margin-top: -21rem;
+  display: flex;
+  margin-left: 65rem;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -21rem;
 }
-
-
 
 .creatina__imagen {
-    /*Imagen*/
-    width: 10%;
-    height: 14%;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    flex-direction: row;
-    margin-left: 53rem;
-    flex-direction: row;
-    margin-top: -29rem;
-}
-
-
-main {
-    min-height: 100vh;
-    margin-top: 200px;
-    /*background-color: white;*/
-
-    background-color: #b8a46f;
-
-}
-
-footer {
-    background-color: black;
-    background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
-
-
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
-    padding: 0.8rem;
-    justify-content: right;
-    border: 1px solid;
-
-
-}
-
-.flexbox {
-    display: flex;
-
-
-}
-
-
-.whatsapp {
-    background-color: rgb(76, 116, 17);
-    color: aliceblue;
-    width: 100px;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    position: fixed;
-    right: 2rem;
-    bottom: 2rem;
-    text-decoration: underline;
-
+  /*Imagen*/
+  width: 10%;
+  height: 14%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: row;
+  margin-left: 53rem;
+  flex-direction: row;
+  margin-top: -29rem;
 }
 
 /*Rutinas.html*/
 .titulo__diferentestiposrutinas {
-    text-decoration: underline;
-    font-size: 64px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center;
+  text-decoration: underline;
+  font-size: 64px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .titulo__weider {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    margin-top: 2rem;
-    text-align: center;
-
-
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .parrafo__weider {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__weider {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
-
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
 }
 
 .titulo__torsopierna {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    text-align: center
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: b black;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .parrafo__torsopierna {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__torsopierna {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
-
-
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
 }
 
 .titulo__pushpullleg {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    margin-top: 2rem;
-    text-align: center
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .parrafo__pushpullleg {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__pushpullleg {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
+}
 
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-title {
+  color: orange;
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  text-decoration: underline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: red 1px 2px 4px;
 }
 
 /*Tecnicas y variantes.html*/
 .titulo__tecnicasyvariantes {
-    text-decoration: underline;
-    font-size: 64px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center;
+  text-decoration: underline;
+  font-size: 64px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .titulo__ejercicioscompuestos {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    margin-top: 2rem;
-    text-align: center;
-
-
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .parrafo__ejercicioscompuestos {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__ejercicioscompuestos {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
-
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
 }
 
 .titulo__ejerciciosaislados {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    margin-top: 2rem;
-    text-align: center;
-
-
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .parrafo__ejerciciosaislados {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__ejerciciosaislados {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
-
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
 }
 
 .titulo__rutinacompleta {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    margin-top: 2rem;
-    text-align: center;
-
-
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .parrafo__rutinacompleta {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__rutinacompleta {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
-
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
 }
 
 /*Dietas.html*/
 .titulo__diferentestiposalimentacion {
-    text-decoration: underline;
-    font-size: 64px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center;
+  text-decoration: underline;
+  font-size: 64px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .titulo__dietacetogenica {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    margin-top: 2rem;
-    text-align: center;
-
-
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .parrafo__dietacetogenica {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__dietacetogenica {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
-
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
 }
 
 /*Dieta Hipocalorica*/
 .titulo__dietahipocalorica {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    margin-top: 2rem;
-    text-align: center;
-
-
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .parrafo__dietahipocalorica {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__dietahipocalorica {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
-
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
 }
 
 /*Dieta Hipercalorica*/
 .titulo__dietahipercalorica {
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    text-decoration: underline;
-
-    margin-top: 2rem;
-    text-align: center;
-
-
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .parrafo__dietahipercalorica {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-
-    text-align: center
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: center;
 }
 
 .video__dietahipercalorica {
-    height: 500px;
-    margin-left: 42rem;
-    margin-top: 2rem;
-
+  height: 500px;
+  margin-left: 42rem;
+  margin-top: 2rem;
 }
 
 .footer {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.footer__hijo--1 {
-    align-self: center;
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: underline;
+.footer .footer__hijo--1 {
+  align-self: center;
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
 }
 
-.footer__hijo--2 {
-    align-self: center;
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: underline;
+.footer .footer__hijo--2 {
+  align-self: center;
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
 }
 
-.footer__hijo--3 {
-    align-self: center;
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: underline;
+.footer .footer__hijo--3 {
+  align-self: center;
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
 }
 
-.footer__hijo--4 {
-    align-self: center;
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: underline;
+.footer .footer__hijo--4 {
+  align-self: center;
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
 }
-
-/*Carrousel Cards*/
-.titulo__carrousel {
-    text-decoration: underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-}
-
-.imagenes__carrousel {
-    background-size: cover;
-
-}
-
-.lista__precios {}
-
-.espaciado {
-    display: flex;
-    flex-direction: row;
-}
-
-/*Cards Rutinas*/
-.cards {
-    display: flex;
-    flex-direction: row;
-
-
-
-
-}
-
-.card-title {
-    color: orange;
-    text-align: center;
-    font-size: 32px;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-    text-decoration: underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: red 1px 2px 4px;
-}
-
 
 /*Medias Querys*/
 /*Tablet*/
-@media screen and (max-width:1023px) {
-    .titulo__sitio {
-        font-size: 50px;
-
-
-    }
-
-    .titulo-serviciosdestacados {
-        text-align: center;
-        font-size: 50px;
-
-    }
-
-    .seccion__titulo {
-        font-size: 50px;
-    }
-
-    .grid {
-        display: none;
-    }
-
-    .nav__list {
-        text-align: right;
-    }
-
-    .grid {
-        border: 6px solid black;
-        padding: 0.5rem;
-        height: 200px;
-        display: grid;
-        padding-bottom: 3rem;
-
-
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 2fr;
-        row-gap: 25px;
-        column-gap: 5px;
-        align-items: center;
-    }
-
-    .grid__hijo {
-
-        border: 2px solid orange;
-    }
-
-    .grid__parrafo {
-        text-align: center;
-        font-size: 12px;
-        padding: 1rem;
-        color: orange;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-    }
+@media screen and (max-width: 1023px) {
+  .titulo__sitio {
+    font-size: 50px;
+  }
+  .titulo-serviciosdestacados {
+    text-align: center;
+    font-size: 50px;
+  }
+  .seccion__titulo {
+    font-size: 50px;
+  }
+  .grid {
+    display: none;
+  }
+  .nav__list {
+    text-align: right;
+  }
+  .grid {
+    border: 6px solid black;
+    padding: 0.5rem;
+    height: 200px;
+    display: grid;
+    padding-bottom: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 25px;
+    column-gap: 5px;
+    align-items: center;
+  }
+  .grid__hijo {
+    border: 2px solid orange;
+  }
+  .grid__parrafo {
+    text-align: center;
+    font-size: 12px;
+    padding: 1rem;
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
 }
 
 /*Mobile*/
-@media screen and (max-width:535px) {
-
-    /*Index*/
-    .titulo__sitio {
-        text-align: center;
-        color: black;
-        font-size: 40px;
-    }
-
-    .texto__sitio {
-        text-align: center;
-        font-size: 25px;
-
-    }
-
-    .grid {
-        display: grid;
-    }
-
-    .nav__list {
-        text-align: left;
-        font-size: 16px;
-    }
-
-    .titulo-serviciosdestacados {
-        text-align: center;
-
-    }
-
-    .card {
-
-        border: 6px solid orange;
-        padding: 1.5rem;
-        height: 400px;
-        display: grid;
-        justify-content: left;
-        min-width: 200px;
-
-
-
-
-
-        /*grid-template-columns: 1fr 1fr 1fr;*/
-        /* grid-template-rows: 1fr 1fr;  */
-
-
-        align-items: center;
-    }
-
-    .card__titulo {
-        font-size: 30px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-align: center;
-        margin-bottom: 64px;
-        text-transform: uppercase;
-        color: orange;
-
-
-    }
-
-    .card__imagen {
-        width: 30%;
-        max-height: 50px;
-        border-radius: 8px;
-        margin-bottom: 8px;
-        justify-content: center;
-        display: grid;
-
-
-    }
-
-    .card__parrafo {
-        font-size: 10px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-align: center;
-        color: orange;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-
-    }
-
-    .card__span {
-        color: orange;
-        font-size: 10px;
-        margin-left: 1rem;
-        margin-top: 2rem;
-
-    }
-
-    .titulo-serviciosdestacados {
-        font-size: 50px;
-
-    }
-
-    .seccion__titulo {
-        font-size: 50px;
-
-    }
-
-    .grid {
-        border: 6px solid black;
-        padding: 0.5rem;
-        height: 200px;
-        display: grid;
-        padding-bottom: 3rem;
-
-
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 2fr;
-        row-gap: 25px;
-        column-gap: 5px;
-        align-items: center;
-
-
-
-    }
-
-    .grid__hijo {
-
-        border: 2px solid orange;
-    }
-
-    /*.grid__hijo--1 {
+@media screen and (max-width: 535px) {
+  /*Index*/
+  .titulo__sitio {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+  }
+  .texto__sitio {
+    text-align: center;
+    font-size: 25px;
+  }
+  .grid {
+    display: grid;
+  }
+  .nav__list {
+    text-align: left;
+    font-size: 16px;
+  }
+  .titulo-serviciosdestacados {
+    text-align: center;
+  }
+  .card {
+    border: 6px solid orange;
+    padding: 1.5rem;
+    height: 400px;
+    display: grid;
+    justify-content: left;
+    min-width: 200px;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /* grid-template-rows: 1fr 1fr;  */
+    align-items: center;
+  }
+  .card__titulo {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 64px;
+    text-transform: uppercase;
+    color: orange;
+  }
+  .card__imagen {
+    width: 30%;
+    max-height: 50px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    justify-content: center;
+    display: grid;
+  }
+  .card__parrafo {
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: orange;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .card__span {
+    color: orange;
+    font-size: 10px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+  .titulo-serviciosdestacados {
+    font-size: 50px;
+  }
+  .seccion__titulo {
+    font-size: 50px;
+  }
+  .grid {
+    border: 6px solid black;
+    padding: 0.5rem;
+    height: 200px;
+    display: grid;
+    padding-bottom: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 25px;
+    column-gap: 5px;
+    align-items: center;
+  }
+  .grid__hijo {
+    border: 2px solid orange;
+  }
+  /*.grid__hijo--1 {
 
         background-color: black;
         justify-self: center;
@@ -1408,225 +1135,139 @@ footer {
 
 
     }*/
-
-    .grid__parrafo {
-        text-align: center;
-        font-size: 12px;
-        padding: 1rem;
-        color: orange;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-    }
-
-    .footer {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    }
-
-    .footer__hijo--1 {
-        align-self: center;
-        font-size: 24px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-decoration: underline;
-    }
-
-    .footer__hijo--2 {
-        align-self: center;
-        font-size: 24px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-decoration: underline;
-    }
-
-    .footer__hijo--3 {
-        align-self: center;
-        font-size: 24px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-decoration: underline;
-    }
-
-    .footer__hijo--4 {
-        align-self: center;
-        font-size: 24px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-decoration: underline;
-    }
-
-    .lista__precios {
-        text-align: center;
-        color: white;
-    }
-
-    .imagenes__carrousel {
-        max-width: 70;
-
-
-    }
-
-    /*Productos y servicios*/
-    .titulo-suplementacion {
-        font-size: 50px;
-
-    }
-
-    .proteina__texto {
-        font-size: 12px;
-        text-align: right;
-    }
-
-
-    .proteina__texto1 {
-        font-size: 10px;
-        text-align: left;
-    }
-
-
-    .proteina__texto2 {
-        font-size: 15px;
-        text-align: left;
-
-    }
-
-    .proteina__texto3 {
-        font-size: 10px;
-        text-align: left;
-    }
-
-    .proteina__texto4 {
-        font-size: 10px;
-        justify-self: left;
-
-    }
-
-    .proteina__imagen {
-        height: 100px;
-        width: 100px;
-
-    }
-
-    /*Rutinas*/
-    .titulo__diferentestiposrutinas {
-        font-size: 40px;
-
-    }
-
-    .titulo__weider {
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__weider {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-
-
-    }
-
-    .titulo__torsopierna {
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__torsopierna {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-
-    }
-
-    .titulo__pushpullleg {
-
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__pushpullleg {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-    }
-
-    .titulo__tecnicasyvariantes {
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .titulo__ejercicioscompuestos {
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__ejercicioscompuestos {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-
-    }
-
-    .titulo__ejerciciosaislados {
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__ejerciciosaislados {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-
-    }
-
-    .titulo__rutinacompleta {
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__rutinacompleta {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-
-    }
-
-    .titulo__diferentestiposalimentacion {
-        font-size: 40px;
-        text-align: center;
-
-    }
-
-    .titulo__dietacetogenica {
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__dietacetogenica {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-    }
-
-    .titulo__dietahipocalorica {
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__dietahipocalorica {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-
-    }
-
-    .titulo__dietahipercalorica {
-        font-size: 25px;
-        text-shadow: 2px 2px 3px orange;
-    }
-
-    .video__dietahipercalorica {
-        width: 200px;
-        height: 200px;
-        margin-left: 10rem;
-    }
-
+  .grid__parrafo {
+    text-align: center;
+    font-size: 12px;
+    padding: 1rem;
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .lista__precios {
+    text-align: center;
+    color: white;
+  }
+  .imagenes__carrousel {
+    max-width: 70;
+  }
+  /*Productos y servicios*/
+  .titulo-suplementacion {
+    font-size: 50px;
+  }
+  .proteina__texto {
+    font-size: 12px;
+    text-align: right;
+  }
+  .proteina__texto1 {
+    font-size: 10px;
+    text-align: left;
+  }
+  .proteina__texto2 {
+    font-size: 15px;
+    text-align: left;
+  }
+  .proteina__texto3 {
+    font-size: 10px;
+    text-align: left;
+  }
+  .proteina__texto4 {
+    font-size: 10px;
+    justify-self: left;
+  }
+  .proteina__imagen {
+    height: 100px;
+    width: 100px;
+  }
+  /*Rutinas*/
+  .titulo__diferentestiposrutinas {
+    font-size: 40px;
+  }
+  .titulo__weider {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__weider {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
+  .titulo__torsopierna {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__torsopierna {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
+  .titulo__pushpullleg {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__pushpullleg {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
+  .titulo__tecnicasyvariantes {
+    font-size: 40px;
+    text-align: center;
+  }
+  .titulo__ejercicioscompuestos {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__ejercicioscompuestos {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
+  .titulo__ejerciciosaislados {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__ejerciciosaislados {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
+  .titulo__rutinacompleta {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__rutinacompleta {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
+  .titulo__diferentestiposalimentacion {
+    font-size: 40px;
+    text-align: center;
+  }
+  .titulo__dietacetogenica {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__dietacetogenica {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
+  .titulo__dietahipocalorica {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__dietahipocalorica {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
+  .titulo__dietahipercalorica {
+    font-size: 25px;
+    text-shadow: 2px 2px 3px orange;
+  }
+  .video__dietahipercalorica {
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+  }
 }

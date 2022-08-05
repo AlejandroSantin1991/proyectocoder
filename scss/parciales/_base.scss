@@ -1,0 +1,60 @@
+/*Reseteando o quitando los estilos por defecto de estas 3 propiedades*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    background-color: black;
+    position: relative;
+}
+main {
+    min-height: 100vh;
+    margin-top: 200px;
+    /*background-color: white;*/
+
+    background-color: #b8a46f;
+
+}
+
+/*Selector de tipo clase*/
+.color-texto {
+    color: $colorPrincipal;
+
+}
+
+p {
+    color: orange;
+    font-size: 20px;
+
+}
+
+#titulo-destacado {
+    color: rgb(5, 4, 4);
+
+
+}
+
+.tamañofuente-grande {
+    font-size: 64px;
+
+}
+
+h1 {
+    color: rgb(116, 77, 5);
+
+
+}
+
+h2 {
+    color: orange;
+}
+
+
+
+a {
+    text-decoration: none;
+
+}

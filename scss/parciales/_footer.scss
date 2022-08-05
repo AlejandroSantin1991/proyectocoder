@@ -1,0 +1,45 @@
+.footer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .footer__hijo--1 {
+        align-self: center;
+        font-size: 24px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+        list-style: none;
+    }
+    
+    .footer__hijo--2 {
+        align-self: center;
+        font-size: 24px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+        list-style: none;
+    }
+    
+    .footer__hijo--3 {
+        align-self: center;
+        font-size: 24px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+        list-style: none;
+    }
+    
+    .footer__hijo--4 {
+        align-self: center;
+        font-size: 24px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+        list-style: none;
+    }
+}
+
+
+footer {
+    background-color: $colorPrincipal;
+    background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
+}
+
+
