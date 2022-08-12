@@ -1,4 +1,24 @@
 @charset "UTF-8";
+/*div {
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, 2rem);
+    font-size: map-get($estilos, tFuente);
+}*/
+.modificadodefooter, .modificadodefooter--forma {
+  background-color: green;
+  border: 1px solid black;
+}
+
+.modificadodefooter--forma {
+  color: black;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: left;
+  width: 100%;
+}
+
 /*Reseteando o quitando los estilos por defecto de estas 3 propiedades*/
 * {
   margin: 0;
@@ -53,7 +73,7 @@ header {
   background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
-  font-size: 140%;
+  font-size: 40px;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -120,7 +140,7 @@ header {
 }
 
 footer {
-  background-color: black;
+  background-color: red;
   background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
 }
 
@@ -581,7 +601,7 @@ display: none;
 .vitamina__texto1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
-  font-size: 16px;
+  font-size: 40px;
   width: 9%;
   display: flex;
   margin-left: 25rem;
@@ -1270,4 +1290,15 @@ display: none;
     height: 200px;
     margin-left: 10rem;
   }
+}
+
+.footer {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer .footer__hijos {
+  justify-content: left;
+  font-size: 16px;
 }

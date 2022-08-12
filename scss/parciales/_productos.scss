@@ -133,7 +133,7 @@
 .vitamina__texto1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
-    font-size: 16px;
+    font-size: map-get($estilos, tFuente);
 
     width: 9%;
     display: flex;

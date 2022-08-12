@@ -1,1 +1,28 @@
 $colorPrincipal: black;
+$estilos: (
+  color: red,
+  centro: center,
+  tFuente: 40px,
+  2rem : 2rem
+);
+/*div {
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, 2rem);
+    font-size: map-get($estilos, tFuente);
+}*/
+.modificadodefooter {
+    background-color: green;
+    border: 1px solid black;
+}
+.modificadodefooter--forma {
+    @extend .modificadodefooter;
+    color: black;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    align-items: left;
+    width: 100%;
+    
+}
