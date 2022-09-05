@@ -110,6 +110,7 @@
 
     .titulo__rutinasyplanes {
         text-align: center;
+        
     }
 
     .titulo__ejecucionesyvariantes {
@@ -124,9 +125,7 @@
         color: black;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 16px;
-        padding-left: 4rem;
-
-        transition: font-size 2s, transform 0.1s;
+        margin-right: 4rem;
     }
 
     .imagenes__contenido {
@@ -142,7 +141,7 @@
         width: 40%;
         border-radius: 10%;
         margin-left: 34%;
-        margin-top: 6.5rem;
+        margin-top: 3.4rem;
         justify-content: center;
 
     }
@@ -371,7 +370,7 @@ width: 35%;
     .video__dietacetogenica {
         width: 200px;
         height: 200px;
-        margin-left: 9rem;
+        margin-left: 10rem;
     }
 
     .titulo__dietahipocalorica {
@@ -390,7 +389,7 @@ width: 35%;
     .video__dietahipocalorica {
         width: 200px;
         height: 200px;
-        margin-left: 9rem;
+        margin-left: 10rem;
 
     }
 
@@ -410,7 +409,7 @@ width: 35%;
     .video__dietahipercalorica {
         width: 200px;
         height: 200px;
-        margin-left: 9rem;
+        margin-left: 10rem;
     }
 }
 
