@@ -60,6 +60,11 @@
 @media screen and (max-width:535px) {
 
     /*Index*/
+    .logo {
+        width: 20%;
+
+    }
+
     .titulo__sitio {
         text-align: center;
         color: black;
@@ -68,7 +73,12 @@
 
     .texto__sitio {
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
+
+    }
+
+    .texto__sitio1 {
+        font-size: 15px;
 
     }
 
@@ -95,6 +105,45 @@
 
     .seccion__titulo {
         font-size: 50px;
+
+    }
+
+    .titulo__rutinasyplanes {
+        text-align: center;
+    }
+
+    .titulo__ejecucionesyvariantes {
+        text-align: center;
+
+    }
+
+    .parrafo__ejecucionesyvariantes {
+        display: flex;
+        justify-content: center;
+        margin-top: 3.5rem;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 16px;
+        padding-left: 4rem;
+
+        transition: font-size 2s, transform 0.1s;
+    }
+
+    .imagenes__contenido {
+        width: 53%;
+        border-radius: 10%;
+        margin-left: 34%;
+        margin-top: 2rem;
+        justify-content: center;
+
+    }
+
+    .imagenes__contenido1 {
+        width: 40%;
+        border-radius: 10%;
+        margin-left: 34%;
+        margin-top: 6.5rem;
+        justify-content: center;
 
     }
 
@@ -144,6 +193,21 @@
     }
 
     /*Productos y servicios*/
+
+    // .test {
+    //     display: flex;
+    //     flex-direction: column;
+
+
+    // }
+    .modifpys {
+display: flex;
+flex-direction: column;
+width: 35%;
+
+
+    }
+
     .titulo-suplementacion {
         font-size: 50px;
 
@@ -191,6 +255,14 @@
     }
 
     /*Inicio cards*/
+    .cards {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
     .titulo__weider {
         font-size: 25px;
         text-shadow: 2px 2px 3px orange;
@@ -230,7 +302,7 @@
 
     /*Finalizacion de cards*/
     .titulo__tecnicasyvariantes {
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
 
@@ -270,6 +342,14 @@
 
     }
 
+    //Dietas//*
+    .dietamodif {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
     .titulo__diferentestiposalimentacion {
         font-size: 40px;
         text-align: center;
@@ -279,35 +359,58 @@
     .titulo__dietacetogenica {
         font-size: 25px;
         text-shadow: 2px 2px 3px orange;
+        padding-left: 6rem;
+    }
+
+    .parrafo__dietacetogenica {
+        width: 85%;
+        font-size: 18px;
+        padding-left: 4rem;
     }
 
     .video__dietacetogenica {
         width: 200px;
         height: 200px;
-        margin-left: 10rem;
+        margin-left: 9rem;
     }
 
     .titulo__dietahipocalorica {
         font-size: 25px;
         text-shadow: 2px 2px 3px orange;
+        margin-left: -0.5rem;
+    }
+
+    .parrafo__dietahipocalorica {
+        width: 85%;
+        font-size: 18px;
+        padding-left: 3rem;
+
     }
 
     .video__dietahipocalorica {
         width: 200px;
         height: 200px;
-        margin-left: 10rem;
+        margin-left: 9rem;
 
     }
 
     .titulo__dietahipercalorica {
         font-size: 25px;
         text-shadow: 2px 2px 3px orange;
+        margin-left: 0.5rem;
+    }
+
+    .parrafo__dietahipercalorica {
+        width: 80%;
+        font-size: 18px;
+        margin-left: 3rem;
+
     }
 
     .video__dietahipercalorica {
         width: 200px;
         height: 200px;
-        margin-left: 10rem;
+        margin-left: 9rem;
     }
 }
 

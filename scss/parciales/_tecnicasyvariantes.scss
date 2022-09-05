@@ -1,90 +1,113 @@
-/*Tecnicas y variantes.html*/
+
 .titulo__tecnicasyvariantes {
     text-decoration: underline;
-    font-size: 64px;
+    font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
-
+    text-shadow: orange 1px 2px 2px;
     text-align: center;
 }
 
 .titulo__ejercicioscompuestos {
-    font-size: 32px;
+    font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
     text-decoration: underline;
-
+    text-shadow: orange 1px 2px 2px;
+    
+    text-align: left;
     margin-top: 2rem;
-    text-align: center;
+    margin-left: 2rem;
+    
+    
 
 
 }
 
 .parrafo__ejercicioscompuestos {
-    font-size: 16px;
+    font-size: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
-
-    text-align: center
+    text-align: left;
+    
+    margin-left: 2rem;
+    width: 85%;
+    
+    
+    
 }
 
 .video__ejercicioscompuestos {
-    height: 500px;
-    margin-left: 42rem;
+    height: 400px;
+    margin-left: 5rem;
     margin-top: 2rem;
+    
+    
 
 }
+.modif1 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 
+
+}
 .titulo__ejerciciosaislados {
-    font-size: 32px;
+    font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
     text-decoration: underline;
-
+    text-align: left;
     margin-top: 2rem;
-    text-align: center;
+    margin-left: 2rem;
+    text-shadow: orange 1px 2px 2px;
+    
 
 
 }
 
 .parrafo__ejerciciosaislados {
-    font-size: 16px;
+    font-size: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
-
-    text-align: center
+    text-align: left;
+    margin-left: 2rem;
+    
 }
 
 .video__ejerciciosaislados {
-    height: 500px;
-    margin-left: 42rem;
+    height: 400px;
+    margin-left: 5rem;
     margin-top: 2rem;
 
 }
 
 .titulo__rutinacompleta {
-    font-size: 32px;
+    font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
     text-decoration: underline;
+    text-shadow: orange 1px 2px 2px;
 
     margin-top: 2rem;
-    text-align: center;
+    margin-left: 2rem;
+    text-align: left;
 
 
 }
 
 .parrafo__rutinacompleta {
-    font-size: 16px;
+    font-size: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
-
-    text-align: center
+    text-align: left;
+    margin-left: 2rem;
+    
 }
 
 .video__rutinacompleta {
-    height: 500px;
-    margin-left: 42rem;
+    height: 400px;
+    margin-left: 5rem;
     margin-top: 2rem;
 
 }

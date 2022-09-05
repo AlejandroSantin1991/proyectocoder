@@ -144,38 +144,31 @@ footer {
   background-image: linear-gradient(to top, #090908, #333015, #63561a, #9f7c1d, #e5a123);
 }
 
-.imagengladiador {
-  background-image: url(../imagenes/fondodefinitivo.png);
-  background-repeat: no-repeat;
-  background-size: 25%;
-  background-position: center;
-  background-attachment: fixed;
+.propnav {
+  font-size: 50%;
 }
 
 .titulo__sitio {
-  /*display: flex;
-    justify-content: center;*/
   color: black;
   font-size: 64px;
   text-align: center;
   transition: padding 2s, background-color 1s, font-size 2s, color 2s, transform 0.5s;
+  text-shadow: orange 2px 2px 3px;
   padding: 1rem;
-}
-
-.titulo__sitio:hover {
-  padding: 0.5rem;
-  background-color: orange;
-  font-size: 80px;
-  color: white;
-  transform: scale(1.1);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .texto__sitio {
-  /*display: flex;
-    justify-content: center;*/
   color: black;
   font-size: 32px;
   text-decoration: underline;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto__sitio1 {
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
 }
 
@@ -200,78 +193,26 @@ footer {
   transition: font-size 2s, transform 0.1s;
 }
 
-.parrafo__rutinasyplanes:hover {
-  font-size: 40px;
-  color: orange;
-  text-shadow: black 1px 2px 4px;
-  transform: scale(1);
-}
-
-.imagenes {
-  position: relative;
-}
-
 .imagenes__contenido {
   width: 35%;
   border-radius: 10%;
-  margin-left: 40%;
+  margin-left: 34%;
   margin-top: 2rem;
+  justify-content: center;
 }
 
-.imagenes__efecto {
-  animation-name: slide-top;
-  animation-duration: 4s;
-  animation-iteration-count: 1;
+.imagenes__contenido1 {
+  width: 27%;
+  border-radius: 10%;
+  margin-left: 34%;
+  margin-top: 3.5rem;
+  justify-content: center;
 }
 
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-  }
-}
-
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-  }
-}
-
-.rutyejec__efectos {
-  animation-name: scale-up-center;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(2);
-    transform: scale(2);
-  }
-}
-
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(2);
-    transform: scale(2);
-  }
+.modif {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .titulo__ejecucionesyvariantes {
@@ -296,13 +237,6 @@ footer {
   transition: font-size 2s, transform 0.1s;
 }
 
-.parrafo__ejecucionesyvariantes:hover {
-  font-size: 40px;
-  color: orange;
-  text-shadow: black 1px 2px 4px;
-  transform: scale(1);
-}
-
 /*Cartas de precios*/
 .titulo-serviciosdestacados {
   display: flex;
@@ -314,6 +248,7 @@ footer {
   border: 3px solid black;
   text-shadow: 6px 4px 7px orange;
   color: black;
+  margin-top: 2rem;
 }
 
 .titulodestacado__efectos {
@@ -378,16 +313,6 @@ footer {
   font-size: 16px;
   margin-left: 1rem;
   margin-top: 2rem;
-}
-
-/*
-.card--ocultar {
-display: none;
-
-}*/
-.card--oscuro {
-  background-color: black;
-  color: black;
 }
 
 .card__absolute {
@@ -601,7 +526,6 @@ display: none;
 .vitamina__texto1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
-  font-size: 40px;
   width: 9%;
   display: flex;
   margin-left: 25rem;
@@ -731,6 +655,7 @@ display: none;
   font-size: 64px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
+  text-shadow: orange 1px 2px 2px;
   text-align: center;
 }
 
@@ -815,156 +740,187 @@ display: none;
   text-shadow: red 1px 2px 4px;
 }
 
-/*Tecnicas y variantes.html*/
 .titulo__tecnicasyvariantes {
   text-decoration: underline;
-  font-size: 64px;
+  font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
+  text-shadow: orange 1px 2px 2px;
   text-align: center;
 }
 
 .titulo__ejercicioscompuestos {
-  font-size: 32px;
+  font-size: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   text-decoration: underline;
+  text-shadow: orange 1px 2px 2px;
+  text-align: left;
   margin-top: 2rem;
-  text-align: center;
+  margin-left: 2rem;
 }
 
 .parrafo__ejercicioscompuestos {
-  font-size: 16px;
+  font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
+  width: 85%;
 }
 
 .video__ejercicioscompuestos {
-  height: 500px;
-  margin-left: 42rem;
+  height: 400px;
+  margin-left: 5rem;
   margin-top: 2rem;
+}
+
+.modif1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .titulo__ejerciciosaislados {
-  font-size: 32px;
+  font-size: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   text-decoration: underline;
+  text-align: left;
   margin-top: 2rem;
-  text-align: center;
+  margin-left: 2rem;
+  text-shadow: orange 1px 2px 2px;
 }
 
 .parrafo__ejerciciosaislados {
-  font-size: 16px;
+  font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
 }
 
 .video__ejerciciosaislados {
-  height: 500px;
-  margin-left: 42rem;
+  height: 400px;
+  margin-left: 5rem;
   margin-top: 2rem;
 }
 
 .titulo__rutinacompleta {
-  font-size: 32px;
+  font-size: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   text-decoration: underline;
+  text-shadow: orange 1px 2px 2px;
   margin-top: 2rem;
-  text-align: center;
+  margin-left: 2rem;
+  text-align: left;
 }
 
 .parrafo__rutinacompleta {
-  font-size: 16px;
+  font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
 }
 
 .video__rutinacompleta {
-  height: 500px;
-  margin-left: 42rem;
+  height: 400px;
+  margin-left: 5rem;
   margin-top: 2rem;
 }
 
 /*Dietas.html*/
 .titulo__diferentestiposalimentacion {
   text-decoration: underline;
-  font-size: 64px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: black;
-  text-align: center;
-}
-
-.titulo__dietacetogenica {
-  font-size: 32px;
+  font-size: 25px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   text-decoration: underline;
-  margin-top: 2rem;
+  text-shadow: orange 1px 2px 2px;
   text-align: center;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.dietamodif {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulo__dietacetogenica {
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-decoration: underline;
+  text-shadow: orange 1px 2px 2px;
+  margin-top: 4rem;
+  text-align: center;
+  margin-right: 6rem;
 }
 
 .parrafo__dietacetogenica {
-  font-size: 16px;
+  font-size: 12px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   text-align: center;
 }
 
 .video__dietacetogenica {
-  height: 500px;
-  margin-left: 42rem;
+  height: 200px;
+  margin-left: 1rem;
   margin-top: 2rem;
 }
 
 /*Dieta Hipocalorica*/
 .titulo__dietahipocalorica {
-  font-size: 32px;
+  font-size: 18px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   text-decoration: underline;
-  margin-top: 2rem;
+  text-shadow: orange 1px 2px 2px;
+  margin-top: 4rem;
   text-align: center;
 }
 
 .parrafo__dietahipocalorica {
-  font-size: 16px;
+  font-size: 12px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   text-align: center;
 }
 
 .video__dietahipocalorica {
-  height: 500px;
-  margin-left: 42rem;
+  height: 200px;
+  margin-left: 1rem;
   margin-top: 2rem;
 }
 
 /*Dieta Hipercalorica*/
 .titulo__dietahipercalorica {
-  font-size: 32px;
+  font-size: 18px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   text-decoration: underline;
+  text-shadow: orange 1px 2px 2px;
   margin-top: 2rem;
   text-align: center;
+  margin-left: 23rem;
 }
 
 .parrafo__dietahipercalorica {
-  font-size: 16px;
+  font-size: 12px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
+  margin-left: 23rem;
   text-align: center;
 }
 
 .video__dietahipercalorica {
-  height: 500px;
-  margin-left: 42rem;
+  height: 200px;
   margin-top: 2rem;
+  margin-left: 23rem;
 }
 
 .footer {
@@ -1047,6 +1003,9 @@ display: none;
 /*Mobile*/
 @media screen and (max-width: 535px) {
   /*Index*/
+  .logo {
+    width: 20%;
+  }
   .titulo__sitio {
     text-align: center;
     color: black;
@@ -1054,7 +1013,10 @@ display: none;
   }
   .texto__sitio {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+  }
+  .texto__sitio1 {
+    font-size: 15px;
   }
   .grid {
     display: grid;
@@ -1066,52 +1028,41 @@ display: none;
   .titulo-serviciosdestacados {
     text-align: center;
   }
-  .card {
-    border: 6px solid orange;
-    padding: 1.5rem;
-    height: 400px;
-    display: grid;
-    justify-content: left;
-    min-width: 200px;
-    /*grid-template-columns: 1fr 1fr 1fr;*/
-    /* grid-template-rows: 1fr 1fr;  */
-    align-items: center;
-  }
-  .card__titulo {
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    margin-bottom: 64px;
-    text-transform: uppercase;
-    color: orange;
-  }
-  .card__imagen {
-    width: 30%;
-    max-height: 50px;
-    border-radius: 8px;
-    margin-bottom: 8px;
-    justify-content: center;
-    display: grid;
-  }
-  .card__parrafo {
-    font-size: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    color: orange;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .card__span {
-    color: orange;
-    font-size: 10px;
-    margin-left: 1rem;
-    margin-top: 2rem;
-  }
   .titulo-serviciosdestacados {
     font-size: 50px;
   }
   .seccion__titulo {
     font-size: 50px;
+  }
+  .titulo__rutinasyplanes {
+    text-align: center;
+  }
+  .titulo__ejecucionesyvariantes {
+    text-align: center;
+  }
+  .parrafo__ejecucionesyvariantes {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    padding-left: 4rem;
+    transition: font-size 2s, transform 0.1s;
+  }
+  .imagenes__contenido {
+    width: 53%;
+    border-radius: 10%;
+    margin-left: 34%;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  .imagenes__contenido1 {
+    width: 40%;
+    border-radius: 10%;
+    margin-left: 34%;
+    margin-top: 6.5rem;
+    justify-content: center;
   }
   .grid {
     border: 6px solid black;
@@ -1128,33 +1079,6 @@ display: none;
   .grid__hijo {
     border: 2px solid orange;
   }
-  /*.grid__hijo--1 {
-
-        background-color: black;
-        justify-self: center;
-
-
-    }
-
-    .grid__hijo--2 {
-
-        background-color: black;
-
-    }
-
-    .grid__hijo--3 {
-
-        background-color: black;
-
-
-    }
-
-    .grid__hijo--4 {
-        background-color: black;
-
-
-
-    }*/
   .grid__parrafo {
     text-align: center;
     font-size: 12px;
@@ -1170,6 +1094,11 @@ display: none;
     max-width: 70;
   }
   /*Productos y servicios*/
+  .modifpys {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
   .titulo-suplementacion {
     font-size: 50px;
   }
@@ -1201,6 +1130,11 @@ display: none;
   .titulo__diferentestiposrutinas {
     font-size: 40px;
   }
+  /*Inicio cards*/
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
   .titulo__weider {
     font-size: 25px;
     text-shadow: 2px 2px 3px orange;
@@ -1228,8 +1162,9 @@ display: none;
     height: 200px;
     margin-left: 10rem;
   }
+  /*Finalizacion de cards*/
   .titulo__tecnicasyvariantes {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
   }
   .titulo__ejercicioscompuestos {
@@ -1259,6 +1194,10 @@ display: none;
     height: 200px;
     margin-left: 10rem;
   }
+  .dietamodif {
+    display: flex;
+    flex-direction: column;
+  }
   .titulo__diferentestiposalimentacion {
     font-size: 40px;
     text-align: center;
@@ -1266,29 +1205,47 @@ display: none;
   .titulo__dietacetogenica {
     font-size: 25px;
     text-shadow: 2px 2px 3px orange;
+    padding-left: 6rem;
+  }
+  .parrafo__dietacetogenica {
+    width: 85%;
+    font-size: 18px;
+    padding-left: 4rem;
   }
   .video__dietacetogenica {
     width: 200px;
     height: 200px;
-    margin-left: 10rem;
+    margin-left: 9rem;
   }
   .titulo__dietahipocalorica {
     font-size: 25px;
     text-shadow: 2px 2px 3px orange;
+    margin-left: -0.5rem;
+  }
+  .parrafo__dietahipocalorica {
+    width: 85%;
+    font-size: 18px;
+    padding-left: 3rem;
   }
   .video__dietahipocalorica {
     width: 200px;
     height: 200px;
-    margin-left: 10rem;
+    margin-left: 9rem;
   }
   .titulo__dietahipercalorica {
     font-size: 25px;
     text-shadow: 2px 2px 3px orange;
+    margin-left: 0.5rem;
+  }
+  .parrafo__dietahipercalorica {
+    width: 80%;
+    font-size: 18px;
+    margin-left: 3rem;
   }
   .video__dietahipercalorica {
     width: 200px;
     height: 200px;
-    margin-left: 10rem;
+    margin-left: 9rem;
   }
 }
 

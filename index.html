@@ -21,14 +21,13 @@
     <!-- Vinculacion de forma externa - hoja de estilos propia-->
     <link rel="stylesheet" href="./css/estilos.css">
 
-
 </head>
 
 <body>
     <header>
         <img class="logo" src="./imagenes/logogladiatorgym.png" height="100" width="70" alt="logo">
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <nav class="navbar propnav navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -66,21 +65,25 @@
                 </div>
             </div>
         </nav>
+
+
+
     </header>
-    <main class="imagengladiador main">
+    <main>
 
         <div>
             <h1 class="titulo__sitio">Sitio de programacion de entrenamientos</h1>
             <p class="texto__sitio"> Todo el contenido que necesitas para obtener un entrenamiento exitoso</p>
-            <p>Aqui te daremos todos los consejos que necesitas saber para maximizar resultados y conseguir tus metas </p>
-            
+            <p class="texto__sitio1">Aqui te daremos todos los consejos que necesitas saber para maximizar resultados y
+                conseguir tus metas </p>
+
         </div>
-        <section class="espaciado">
+        <section class="espaciado modif">
             <div>
                 <h2 class="titulo__rutinasyplanes rutyejec__efectos">Rutinas y planes de alimentacion</h2>
                 <p class="parrafo__rutinasyplanes">Diferentes tipos de rutinas dependiendo los dias y frecuencia de
                     entrenamiento.</br> Dietas acorde al objetivo de cada persona.</p>
-                <img class="imagenes__contenido imagenes__efecto" src="./imagenes/rutinayplatodecomidas.jfif"
+                <img class="imagenes__contenido" src="./imagenes/rutinayplatodecomidas.jfif"
                     alt="Rutina y plato de comidas">
             </div>
 
@@ -89,13 +92,11 @@
                 <p class="parrafo__ejecucionesyvariantes "> Videos con contenido acerca de tecnicas correctas en los
                     ejercicios, y sus diferentes formas de
                     ejecucion.</p>
-                <img class="imagenes__contenido imagenes__efecto" src="./imagenes/hombreentrenando.jfif"
+                <img class="imagenes__contenido1" src="./imagenes/hombreentrenando.jfif"
                     alt="Hombre entrenando">
-                
+
             </div>
         </section>
-
-
 
         <section>
 
@@ -163,141 +164,107 @@
                     </button>
                 </div>
             </section>
-            <section>
-
-                <h2 class="seccion__titulo">Metodos de organizacion para llegar al objetivo</h2>
-
-
-                <div class="grid">
-                    <div class="grid__hijo grid__hijo--1 grid__parrafo efectos__hijos">1- Tener en claro el objetivo y
-                        metas personales
-                    </div>
-
-
-                    <div class="grid__hijo grid__hijo--2 grid__parrafo efectos__hijos">2- Planificar una rutina acorde
-                        al objetivo
-                        dicho
-                    </div>
-
-
-
-                    <div class="grid__hijo grid__hijo--3 grid__parrafo efectos__hijos">3- Armar un plan de nutricion que
-                        acompañe el
-                        objetivo</div>
-
-
-
-                    <div class="grid__hijo grid__hijo--4 grid__parrafo efectos__hijos">4- Organizacion de horarios
-                        disponibles para la
-                        alimentacion y el entrenamiento planeado</div>
-
-
-
-                </div>
-                <section>
-
-                </section>
-
-            </section>
-            <form>
-                <div>
-                    <label class="color-texto" for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
-                </div>
-
-                <div>
-                    <label class="color-texto" for="apellido">Apellido:</label>
-                    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
-                </div>
-
-                <div>
-                    <label class="color-texto" for="password">Contraseña:</label>
-                    <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
-                </div>
-
-                <div>
-                    <label class="color-texto" for="email">Email:</label>
-                    <input type="text" id="email" name="email" placeholder="Ingresu su email" required>
-                </div>
-
-                <div>
-                    <label class="color-texto" for="edad">Edad</label>
-                    <select name="edad" id="edad" required>
-                        <option value="">Seleccione..</option>
-                        <option value="18-30 años">18-30 años</option>
-                        <option value="30-50 años">30-50 años</option>
-                        <option value="50-80 años">50-80 años</option>
-                    </select>
-                </div>
-
-                <div>
-                    <h2 class="color-texto">Entrenas?</h2>
-                    <label class="color-texto" for="">Si</label>
-                    <input type="radio" name="entrenas?" value="si" required>
-                    <label class="color-texto" for="">No</label>
-                    <input type="radio" name="entrenas?" value="no" required>
-                </div>
-
-                <div>
-                    <h4 class="color-texto">Contanos tus objetivos:</h4>
-                    <label class="color-texto" for="comentario">Comentario:</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="10"
-                        placeholder="Ingrese sus objetivos a cumplir"></textarea>
-                </div>
-
-                <div>
-                    <label class="color-texto" for="">Acepta terminos</label>
-                    <input type="checkbox" name="terminos" value="acepto" required>
-                </div>
-
-                <div>
-                    <button>Enviar</button>
-                </div>
-
-
-            </form>
-
-            <!-- <div>
-                <a class="whatsapp" href="">
-                    Whatsapp
-            </div> -->
-
 
     </main>
 
-    <!-- </footer> -->
-    <footer class="bg-light text-center text-white">
+    <footer class="text-white text-center text-lg-start bg-primary">
         <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
-                    href="https://www.facebook.com/" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Acerca de nosotros</h5>
 
-                <!-- Twitter -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
-                    href="https://twitter.com/?lang=es" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
-                <!-- Instagram -->
-                <a span="Instagram" class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
-                    href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+                    <p>
+                        Somos un grupo de profesionales capacitados en entrenamiento y nutricion deportiva, con el fin
+                        de ayudar a personas a cumplir sus objetivos y metas deportivas.
+                    </p>
 
-                <!-- Whatssap-->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #00ca11;"
-                    href="https://wa.me/+5401169058731" target="_blank" role="button"><i
-                        class="fab fa-contacto"></i></a>
+                    <p>
+                        Aqui encontraras todo lo necesario para llevar a cabo un entrenamiento completo segun tus
+                        objetivos, y una correcta alimentacion para maximizar tus resultados.
+                    </p>
 
-            </section>
-            <!-- Section: Social media -->
+                    <div class="mt-4">
+                        <!-- Facebook -->
+                        <a type="button" class="btn btn-floating btn-primary btn-lg"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- Dribbble -->
+                        <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-dribbble"></i></a>
+                        <!-- Twitter -->
+                        <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
+                        <!-- Google + -->
+                        <a type="button" class="btn btn-floating btn-primary btn-lg"><i
+                                class="fab fa-google-plus-g"></i></a>
+                        <!-- Linkedin -->
+                    </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 pb-1">Buscar Contenido</h5>
+
+                    <div class="form-outline form-white mb-4">
+                        <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                        <label class="form-label" for="formControlLg">Buscar</label>
+                    </div>
+
+                    <ul class="fa-ul" style="margin-left: 1.65em;">
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Buenos Aires, Bs As
+                                1663, ARG</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                class="ms-2">Alejandro.santin1991@gmail.com</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 11 690 587
+                                31</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 11 234 567
+                                89</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Horarios de atencion</h5>
+
+                    <table class="table text-center text-white">
+                        <tbody class="font-weight-normal">
+                            <tr>
+                                <td>Lun - Vie:</td>
+                                <td>8am - 9pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sab - Dom:</td>
+                                <td>8am - 1am</td>
+                            </tr>
+                            <tr>
+                                <td>Feriados:</td>
+                                <td>9am - 12pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
         </div>
         <!-- Grid container -->
-        <!-- Derechos reservados -->
+
+        <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 gladiators:
-            <a class="text-white" href="">Derechos reservados</a>
+            © 2022 Derechos Reservados:
+            <a class="text-white" href="https://mdbootstrap.com/">EntrenamientosA.com</a>
         </div>
-        <!-- Derechos reservados -->
-
+        <!-- Copyright -->
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -1,55 +1,72 @@
 /*Dietas.html*/
 .titulo__diferentestiposalimentacion {
     text-decoration: underline;
-    font-size: 64px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: $colorPrincipal;
-
-    text-align: center;
-}
-
-.titulo__dietacetogenica {
-    font-size: 32px;
+    font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
     text-decoration: underline;
-
-    margin-top: 2rem;
+    text-shadow: orange 1px 2px 2px;
     text-align: center;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.dietamodif {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.titulo__dietacetogenica {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorPrincipal;
+    text-decoration: underline;
+    text-shadow: orange 1px 2px 2px;
+
+    margin-top: 4rem;
+    text-align: center;
+    margin-right: 6rem;
+
+
 
 
 }
 
 .parrafo__dietacetogenica {
-    font-size: 16px;
+    font-size: 12px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
 
-    text-align: center
+    text-align: center;
 }
 
 .video__dietacetogenica {
-    height: 500px;
-    margin-left: 42rem;
+    height: 200px;
+    margin-left: 1rem;
     margin-top: 2rem;
 
 }
 
 /*Dieta Hipocalorica*/
 .titulo__dietahipocalorica {
-    font-size: 32px;
+    font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
     text-decoration: underline;
+    text-shadow: orange 1px 2px 2px;
 
-    margin-top: 2rem;
+    margin-top: 4rem;
     text-align: center;
 
 
 }
 
 .parrafo__dietahipocalorica {
-    font-size: 16px;
+    font-size: 12px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
 
@@ -57,37 +74,40 @@
 }
 
 .video__dietahipocalorica {
-    height: 500px;
-    margin-left: 42rem;
+    height: 200px;
+    margin-left: 1rem;
     margin-top: 2rem;
 
 }
 
 /*Dieta Hipercalorica*/
 .titulo__dietahipercalorica {
-    font-size: 32px;
+    font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
     text-decoration: underline;
+    text-shadow: orange 1px 2px 2px;
 
     margin-top: 2rem;
     text-align: center;
+    margin-left: 23rem;
 
 
 }
 
 .parrafo__dietahipercalorica {
-    font-size: 16px;
+    font-size: 12px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $colorPrincipal;
+    margin-left: 23rem;
+    text-align: center;
 
-    text-align: center
 }
 
 .video__dietahipercalorica {
-    height: 500px;
-    margin-left: 42rem;
+    height: 200px;
     margin-top: 2rem;
+    margin-left: 23rem;
 
 }
 
@@ -102,21 +122,21 @@
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         text-decoration: underline;
     }
-    
+
     .footer__hijo--2 {
         align-self: center;
         font-size: 32px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         text-decoration: underline;
     }
-    
+
     .footer__hijo--3 {
         align-self: center;
         font-size: 32px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         text-decoration: underline;
     }
-    
+
     .footer__hijo--4 {
         align-self: center;
         font-size: 32px;
@@ -124,5 +144,3 @@
         text-decoration: underline;
     }
 }
-
-

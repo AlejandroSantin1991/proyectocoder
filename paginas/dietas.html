@@ -29,7 +29,7 @@
     <img src="../imagenes/logogladiatorgym.png" height="100" width="80" alt="logo">
 
     </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar propnav navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -70,36 +70,34 @@
 
   <main>
     <!--Va a contener todos los elementos section que vaya a plasmar en esta paguna-->
-    <section>
-      <h1 class="titulo__diferentestiposalimentacion">Diferentes tipos de alimentacion</h1>
+    <section class="dietamodif">
+      <h1 class="titulo__diferentestiposalimentacion">Diferentes tipos de alimentacion:</h1>
       <div>
         <h2 class="titulo__dietacetogenica">Dieta cetogenica</h2>
-        <p class="parrafo__dietacetogenica">La dieta cetogénica es una dieta estricta de alto contenido en grasas y baja en hidratos de carbono que puede reducir, y a veces hasta detener por completo, las crisis epilépticas.
+        <p class="parrafo__dietacetogenica">La dieta cetogénica es una dieta estricta de alto contenido en grasas y baja
+          en hidratos de carbono.
         </p>
         <iframe class="video__dietacetogenica" width="560" height="315" src="https://www.youtube.com/embed/7DRLUUUO10c"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
-    </section>
 
-    <section>
       <div>
         <h2 class="titulo__dietahipocalorica">Dieta hipocalorica</h2>
-        <p class="parrafo__dietahipocalorica">La dieta hipocalórica se caracteriza por ser una dieta o régimen dietético bajo en calorías
+        <p class="parrafo__dietahipocalorica">La dieta hipocalórica se caracteriza por ser una dieta o régimen dietético
+          bajo en calorías
         </p>
         <iframe class="video__dietahipocalorica" width="560" height="315"
           src="https://www.youtube.com/embed/3QMpcH3LhS4" title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
-    </section>
 
-    <section>
       <div>
         <h2 class="titulo__dietahipercalorica">Dieta hipercalorica</h2>
-        <p class="parrafo__dietahipercalorica">Una dieta hipercalórica es aquella que contiene alimentos que proporcionan un aporte energético mayor del que necesita una persona.
-          facere!</p>
+        <p class="parrafo__dietahipercalorica">Una dieta hipercalórica es aquella que contiene alimentos que
+          proporcionan un aporte energético mayor del que necesita una persona. </p>
         <iframe class="video__dietahipercalorica" width="560" height="315"
           src="https://www.youtube.com/embed/626kChJZrRs" title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -108,40 +106,107 @@
     </section>
 
   </main>
-  <footer class="bg-light text-center text-white">
-    <img src="../imagenes/logogladiatorgym.png" height="150" width="130" alt="logo">
+  <footer class="text-white text-center text-lg-start bg-primary">
     <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/"
-          target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Acerca de nosotros</h5>
 
-        <!-- Twitter -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
-          href="https://twitter.com/?lang=es" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
-        <!-- Instagram -->
-        <a span="Instagram" class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
-          href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+          <p>
+            Somos un grupo de profesionales capacitados en entrenamiento y nutricion deportiva, con el fin
+            de ayudar a personas a cumplir sus objetivos y metas deportivas.
+          </p>
 
-        <!-- Whatssap-->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #00ca11;"
-          href="https://wa.me/+5401169058731" target="_blank" role="button"><i class="fab fa-contacto"></i></a>
+          <p>
+            Aqui encontraras todo lo necesario para llevar a cabo un entrenamiento completo segun tus
+            objetivos, y una correcta alimentacion para maximizar tus resultados.
+          </p>
 
-      </section>
-      <!-- Section: Social media -->
+          <div class="mt-4">
+            <!-- Facebook -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
+            <!-- Dribbble -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-dribbble"></i></a>
+            <!-- Twitter -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
+            <!-- Google + -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-google-plus-g"></i></a>
+            <!-- Linkedin -->
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1">Buscar Contenido</h5>
+
+          <div class="form-outline form-white mb-4">
+            <input type="text" id="formControlLg" class="form-control form-control-lg" />
+            <label class="form-label" for="formControlLg">Buscar</label>
+          </div>
+
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Buenos Aires, Bs As
+                1663, ARG</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                class="ms-2">Alejandro.santin1991@gmail.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 11 690 587
+                31</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 11 234 567
+                89</span>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Horarios de atencion</h5>
+
+          <table class="table text-center text-white">
+            <tbody class="font-weight-normal">
+              <tr>
+                <td>Lun - Vie:</td>
+                <td>8am - 9pm</td>
+              </tr>
+              <tr>
+                <td>Sab - Dom:</td>
+                <td>8am - 1am</td>
+              </tr>
+              <tr>
+                <td>Feriados:</td>
+                <td>9am - 12pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
     </div>
     <!-- Grid container -->
-    <!-- Derechos reservados -->
+
+    <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 gladiators:
-      <a class="text-white" href="">Derechos reservados</a>
+      © 2022 Derechos Reservados:
+      <a class="text-white" href="https://mdbootstrap.com/">EntrenamientosA.com</a>
     </div>
-    <!-- Derechos reservados -->
-
+    <!-- Copyright -->
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
-</body>
+
 
 </html>
